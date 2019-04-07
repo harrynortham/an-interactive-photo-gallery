@@ -1,0 +1,35 @@
+*{
+  font-family: $font-stack-primary;
+  color: $font-color-primary;
+  box-sizing: border-box;
+}
+
+.container{
+  padding: $sm-gutter;
+  max-width:1100px;
+  margin: auto;
+}
+
+header{
+    padding: $sm-gutter;
+    text-align: center;
+}
+
+.gallery{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.gallery-image{
+  width:50%;
+  padding: $sm-gutter;
+  @include  mq('m') {
+    width:33.3333333%;
+    padding: $m-gutter;
+  }
+  @include  mq('l') {
+    width:25%;
+  }
+}

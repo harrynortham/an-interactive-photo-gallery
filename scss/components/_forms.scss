@@ -1,0 +1,17 @@
+header input[type="text"]{
+    width:100%;
+    max-width: 500px;
+    padding: $sm-gutter;
+    font-size: 14pt;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    &:focus{
+      outline: none;
+    }
+    &::placeholder{
+      color: #ccc;
+    }
+    @include  mq('m') {
+      font-size: 16pt;
+    }
+}
