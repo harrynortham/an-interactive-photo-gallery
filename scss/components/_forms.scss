@@ -5,11 +5,14 @@ header input[type="text"]{
     font-size: 14pt;
     border-radius: 5px;
     border: 1px solid #ccc;
-    &:focus{
+    &:focus,
+    &:hover{
       outline: none;
+      box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+      border: 1px solid #fff;
     }
     &::placeholder{
-      color: #ccc;
+      color: #999;
     }
     @include  mq('m') {
       font-size: 16pt;
