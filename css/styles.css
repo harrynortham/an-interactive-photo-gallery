@@ -407,15 +407,8 @@ header {
 
 @media (min-width: 1024px) {
   .lb-data .lb-details {
-    width: 100%;
-    text-align: center;
-    padding-top: 20px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .lb-data .lb-close {
-    display: none;
+    width: 90%;
+    padding-top: 10px;
   }
 }
 

@@ -25,18 +25,12 @@ transition: box-shadow 0.2s ease-in-out;
   }
 }
 .lb-data .lb-caption {
-color:white;
+  color:white;
 }
 
 .lb-data .lb-details {
   @include  mq('l') {
-    width: 100%;
-    text-align: center;
-    padding-top: 20px;
-  }
-}
-.lb-data .lb-close{
-  @include  mq('l') {
-    display: none;
+    width: 90%;
+    padding-top: 10px;
   }
 }
